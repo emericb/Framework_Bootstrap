@@ -1,0 +1,46 @@
+$col_width: 100%/12;
+$col_lg: 1100px;
+$col_md: 700px;
+$col_sm: 351px;
+$col_xs: 100px;
+
+@mixin responsive($res){
+    @if $res == col {
+        @media (min-width: $col_xs) {
+            @for $i from 1 through 12{
+                .col-#{$i} {  width: $col_width * $i}
+            }
+        }
+    }
+
+    @if $res == lg {
+        @media screen and (min-width: $col_lg) {
+            @for $i from 1 through 12{
+                .col-lg-#{$i} { width: $col_width * $i}
+            }
+        }
+    }
+    @if $res == md {
+        @media screen and (min-width: $col_md) and (max-width: $col_lg) {
+            @for $i from 1 through 12{
+                .col-md-#{$i} { width: $col_width * $i}
+            }
+        }
+    }
+
+    @if $res == sm {
+        @media screen and (min-width: $col_sm) and (max-width: $col_md) {
+            @for $i from 1 through 12{
+                .col-sm-#{$i} { font-size: 20px;width: $col_width * $i}
+            }
+        }
+    }
+
+    @if $res == xs {
+        @media screen and (max-width: $col_sm) {
+            @for $i from 1 through 12{
+                .col-xs-#{$i} {width: $col_width * $i}
+            }
+        }
+    }
+}

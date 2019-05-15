@@ -1,0 +1,94 @@
+$color_muted: #808080;
+$color_primary: #00008B;
+$color_secondary: #66CDAA;
+$color_success: #32CD32;
+$color_danger: #DC143C;
+$color_warning: #FFD700;
+$color_info: #8470FF;
+$color_error: #FF0000;
+
+.text-muted {
+	color: $color-muted;
+}
+
+.text-primary {
+	color: $color-primary;
+}
+
+.text-secondary {
+	color: $color_secondary;
+}
+
+.text-success {
+	color: $color_success;
+}
+
+.text-danger {
+	color: $color_danger;
+}
+
+.text-warning {
+	color: $color_warning;
+}
+
+.text-info {
+	color: $color_info;
+}
+
+.text-error {
+	color: $color_error;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-muted {
+	background-color: $color-muted;
+}
+
+.bg-primary {
+	background-color: $color-primary;
+}
+
+.bg-secondary {
+	background-color: $color_secondary;
+}
+
+.bg-success {
+	background-color: $color_success;
+}
+
+.bg-danger {
+	background-color: $color_danger;
+}
+
+.bg-secondary{
+	background-color: $color_secondary;
+}
+
+.bg-success{
+	background-color: $color-success;
+}
+
+.bg-danger{
+	background-color: $color_danger;
+}
+
+.bg-warning{
+	background-color: $color_warning;
+}
+
+.bg-info{
+	background-color: $color_info;
+}
+
+.bg-error{
+	background-color: $color_error;
+}
+
+.bg-light{
+	background-color: #f8f9fa;
+}
+
+.bg-dark{
+	background-color: #343a40;
+}

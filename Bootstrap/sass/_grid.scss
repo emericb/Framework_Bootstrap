@@ -1,0 +1,25 @@
+.container{
+    background-color: #FFE4E1;
+    font-family: sans-serif;
+    margin-right: 8.33%;
+    margin-left: 8.33%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container-fluid{
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.row{
+    margin-right: -15px;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 2%;
+  }

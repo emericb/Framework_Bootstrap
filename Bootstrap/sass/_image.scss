@@ -1,0 +1,9 @@
+.img-responsive {max-width: 100%; height:auto;}
+.img-rounded  { border-radius: 15%;}
+.img-circle  { border-radius: 50%; }
+.img-thumbail {border: 1px solid black; padding: 5px; width: 150px;}
+.img-blur {filter: blur(4px);}
+.img-revert {-webkit-filter: invert(100%);}
+.img-saturate {-webkit-filter: saturate(250%);}
+.img-sepia {-webkit-filter: sepia(100%);}
+.img-bw{  -webkit-filter: grayscale(100%) brightness(10%) contrast(100%);}

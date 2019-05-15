@@ -1,0 +1,36 @@
+.visible-lg, .visible-md, .visible-sm, .visible-xs{
+display: none!important;
+}
+
+
+@media (max-width: $col-lg) {
+	.visible-lg { display: block!important;}
+	.hidden-lg { display: none!important;}
+	.hidden-lg-down, .hidden-unless-lg{display: none!important;}
+}
+
+@media (min-width: $col_md) and (max-width: $col_lg) {
+	.visible-md { display: block!important;}
+	.hidden-md { display: none!important;}
+	.hidden-md-down, .hidden-unless-md{display: none!important;}
+}
+
+@media (min-width: $col_sm) and (max-width: $col_md) {
+	.visible-sm { display: block!important;}
+	.hidden-sm { display: none!important;}
+	.hidden-sm-down, .hidden-unless-sm{display: none!important;}
+}
+
+@media (max-width: $col_sm) {
+	.visible-xs { display: block!important;}
+	.hidden-xs { display: none!important;}
+	.hidden-xs-down {display: none!important;}
+	.hidden-unless-xs, .hidden-xs-up{display: none!important;}
+}
+
+@media print{
+	.visible-print-block  { display: block; }
+	.visible-print-inline  { display: inline; }
+	.visible-print-inline-block  { display: inline-block; }
+  	.hidden-print   { display: none !important; }
+}

@@ -1,0 +1,161 @@
+$color: #fff;
+$bkg_primary: #007bff;
+$border_primary: #3f51b5;
+$bkg_secondary: #6c757d;
+$bkg_success: #28a745;
+$bkg_danger: #dc3545;
+$bkg_warning: #ffc107;
+$bkg_info: #17a2b8;
+$color_black: #212529;
+$bkg_light: #f8f9fa;
+$bkg_dark: #343a40;
+$font_weight: 400;
+$color_link: #007bff;
+$bkg_link: transparent;
+$size: 20px;
+
+.btn{
+	display: inline-block;
+	font-weight: $font_weight;
+	border: 1px solid transparent;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	font-size: 1rem;
+	border-radius: .25rem;
+	overflow: visible;
+	cursor: pointer;
+}
+
+.btn-primary {
+	color: $color;
+	background-color: $bkg_primary;
+	border-color: $bkg-primary;
+
+	&:hover{
+		background-color: #0069d9;
+		border-color: #0062cc;
+	}
+}
+
+.btn-secondary {
+	color: $color;
+	background-color: $bkg_secondary;
+	border-color: $bkg_secondary;
+
+	&:hover{
+		background-color: #5a6268;
+    	border-color: #545b62;
+	}
+}
+
+.btn-success {
+	color: $color;
+	background-color: $bkg_success;
+	border-color: $bkg-success;
+
+	&:hover{
+		background-color: #218838;
+    	border-color: #1e7e34;
+	}
+}
+
+.btn-danger {
+	color: $color;
+	background-color: $bkg_danger;
+	border-color: $bkg_danger;
+
+	&:hover{
+		background-color: #c82333;
+   		border-color: #bd2130;
+	}
+}
+
+.btn-warning {
+	color: $color_black;
+	background-color: $bkg_warning;
+	border_color: $bkg_warning;
+
+	&:hover{
+		background-color: #e0a800;
+    	border-color: #d39e00;
+	}
+}
+
+.btn-info {
+	color: $color;
+	background-color: $bkg_info;
+	border-color: $bkg_info;
+
+	&:hover{
+    	background-color: #138496;
+    	border-color: #117a8b;
+	}
+}
+
+.btn-light {
+	color: $color_black;
+	background-color: $bkg_light;
+	border-color: $bkg_light;
+
+	&:hover{
+    	background-color: #e2e6ea;
+    	border-color: #dae0e5;
+	}
+}
+
+.btn-dark {
+	color: $color;
+	background-color: $bkg_dark;
+	border_color: $bkg_dark;
+
+	&:hover{
+		background-color: #23272b;
+    	border-color: #1d2124;
+	}
+}
+
+.btn-link {
+	font_weight: $font_weight;
+	color: $color_link;
+	background-color: $bkg_link;
+
+	&:hover{
+		color: #0056b3;
+    	text-decoration: underline;
+    	background-color: transparent;
+    	border-color: transparent;
+	}
+}
+
+.btn-lg{
+    padding: $size;
+    font-size: 18px;
+}
+
+.btn-md {
+    padding: $size/2;
+    font-size: 15px;
+}
+
+.btn-sm{
+    padding: $size/4;
+    font-size: 12px;
+}
+
+.btn-xs{
+    padding: $size/5;
+    font-size: 10px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-disabled {
+	pointer-events: none;
+}

@@ -1,0 +1,86 @@
+$bkg_color: transparent;
+$bkg_image: none;
+
+.btn-outline-primary {
+	background-color: $bkg_color;
+	background-image: $bkg_image;
+	color: $bkg_primary;
+	border-color: $bkg_primary;
+
+	&:hover{
+		background-color: $bkg_primary;
+		color: $color;
+	}
+}
+
+.btn-outline-secondary {
+	background-color: $bkg_color;
+	background-image: $bkg_image;
+	color: $bkg_secondary;
+	border-color: $bkg_secondary;
+
+	&:hover{
+		background-color: $bkg_secondary;
+		color: $color;
+	}
+}
+
+.btn-outline-success {
+	background-color: $bkg_color;
+	background-image: $bkg_image;
+	color: $bkg_success;
+	border-color: $bkg_success;
+
+	&:hover{
+		background-color: $bkg_success;
+		color: $color;
+	}
+}
+
+.btn-outline-danger {
+	background-color: $bkg_color;
+	background-image: $bkg_image;
+	color: $bkg_danger;
+	border-color:$bkg_danger;
+
+	&:hover{
+		background-color: $bkg_danger;
+		color: $color;
+	}
+}
+
+.btn-outline-warning {
+	background-color: $bkg_color;
+	background-image: $bkg_image;
+	color: $bkg_warning;
+	border-color: $bkg_warning;
+
+	&:hover{
+		background-color: $bkg_warning;
+		color: $color;
+	}
+}
+
+.btn-outline-info {
+	background-color: $bkg_color;
+	background-image: $bkg_image;
+	color: $bkg_info;
+	border-color: $bkg_info;
+
+	&:hover{
+		background-color: $bkg_info;
+		color: $color;
+	}
+}
+
+.btn-outline-dark {
+	background-color: $bkg_color;
+	background-image: $bkg_image;
+	color: $bkg_dark;
+	border-color: $bkg_dark;
+
+	&:hover{
+		background-color: $bkg_dark;
+		color: $color;
+	}
+}

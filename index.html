@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Sass - Index</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="Bootstrap/js/hamburger.js"></script>
+	<script src="Bootstrap/js/modal.js"></script>
+	<script src="Bootstrap/js/tooltip.js"></script>
+	<script src="Bootstrap/js/onglet.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		.container-fluid
+		<div class="container">
+			.container
+			<hr>
+			<div class="row">
+				<div class=" col-12 topnav">
+					<a href="#" class="nav-item active">Home</a>
+					<div class="dropdown">
+						<a href="#" class="dropbtn">Dropdown</a>
+						<div class="dropdown-content">
+							<a href="#">Link1</a>
+							<a href="#">Link2</a>
+						</div>
+					</div>
+					<a href="#">Contact</a>
+					<a href="#">About</a>
+					<input type="search" placeholder="search" class="searchbar">
+					<button type="button" class="searchbar btn-success">Search</button>
+					<button class="icon btn-light" >&#9776;</button>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-sm-3 col-md-3 col-lg-3 topnav tab-content">
+				<ul class=" tab-list">
+					<li class="active"><a href="#link1">Home</a></li>
+					<li><a href="#link2">News</a></li>
+					<li><a href="#link3">Contact</a></li>
+				</ul>
+				<div id="link1" class="tab-pane active">Welcome</div>
+				<div id="link2" class="tab-pane">News</div>
+				<div id="link3" class="tab-pane tab-content">Contact us
+					<ul class=" tab-list">
+						<li class="active"><a href="#link4">Adresse</a></li>
+						<li><a href="#link5">Num</a></li>
+					</ul>
+					<div id="link4" class="tab-paneactive">23 rue pasteur</div>
+					<div id="link5" class="tab-pane">+33000000000</div>
+				</div>
+			</div>
+			<div class="row">
+				<a href="image/kawai.jpg"><img class="hidden-print tooltip img-blur" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="visible-print-inline-block tooltip img-thumbail" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="hidden-print img-rounded" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="visible-print-inline img-circle" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="visible-print-block img-responsive" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="visible-print-block img-revert" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="visible-print-block img-saturate" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="visible-print-block img-sepia" src="image/kawai.jpg" alt="loli"></a>
+				<a href="image/kawai.jpg"><img class="hidden-print img-bw" src="image/kawai.jpg" alt="loli"></a>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="column col-md-5 col-lg-2 text-muted">text-muted</div>
+				<div class="column col-md-2 col-lg-2 text-primary">text-primary</div>
+				<div class="column col-md-2 col-lg-2 text-secondary">text-secondary</div>
+				<div class="column col-md-2 col-lg-2 text-success">text-success</div>
+				<div class="column col-md-2 col-lg-2 text-danger">text-danger</div>
+				<div class="column col-md-2 col-lg-2 text-warning">text-warning</div>
+				<div class="column col-md-2 col-lg-2 text-info">text-info</div>
+				<div class="column col-md-2 col-lg-2 text-error">text-error</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="column col-md-2 col-lg-2 bg-muted">bg-muted</div>
+				<div class="column col-md-2 col-lg-2 bg-primary">bg-primary</div>
+				<div class="column col-md-2 col-lg-2 bg-secondary">bg-secondary</div>
+				<div class="column col-md-2 col-lg-2 bg-success">bg-success</div>
+				<div class="column col-md-2 col-lg-2 bg-danger">bg-danger</div>
+				<div class="column col-md-2 col-lg-2 bg-warning">bg-warning</div>
+				<div class="column col-md-2 col-lg-2 bg-info">bg-info</div>
+				<div class="column col-md-2 col-lg-2 bg-error">bg-error</div>
+			</div>
+			<hr>
+			<div class="row">
+				<button type="button" class="column btn btn-primary">Primary</button>
+				<button type="button" class="column btn btn-secondary">Secondary</button>
+				<button type="button" class="column btn btn-success">Success</button>
+				<button type="button" class="column btn btn-danger">Danger</button>
+				<button type="button" class="column btn btn-warning">Warning</button>
+				<button type="button" class="column btn btn-info">Info</button>
+				<button type="button" class="column btn btn-light">Light</button>
+				<button type="button" class="column btn btn-dark">Dark</button>
+				<button type="button" class="column btn btn-link">Link</button>
+			</div>
+			<hr>
+			<div class="row">
+				<button type="button" class="column btn btn-outline-primary">Primary</button>
+				<button type="button" class="column btn btn-outline-secondary">Secondary</button>
+				<button type="button" class="column btn btn-outline-success">Success</button>
+				<button type="button" class="column btn btn-outline-danger">Danger</button>
+				<button type="button" class="column btn btn-outline-warning">Warning</button>
+				<button type="button" class="column btn btn-outline-info">Info</button>
+				<button type="button" class="column btn btn-outline-dark">Dark</button>
+			</div>
+			<hr>
+			<div class="row">
+				<button type="button" class="column btn btn-primary btn-lg">Large Button</button>
+				<button type="button" class="column btn btn-secondary btn-sm">Small Button</button>
+				<hr>
+				<button type="button" class="column col-4 btn btn-primary btn-block">Block level Button</button>
+				<button type="button" class="column col-4 btn btn-secondary btn-block">Block level Button</button>
+			</div>
+			<hr>
+			<div class="row">
+				<button type="button" class="column btn btn-primary btn-lg">Primary link</button>
+				<button type="button" class="column btn btn-secondary btn-lg btn-disabled">Secondary link</button>
+			</div>
+			<br>
+			<hr>
+			<div class="row">
+				<div class="alert col-5 alert-primary">This is a alert—check it out!</div>
+				<div class="alert col-5 alert-secondary">This is a alert—check it out!</div>
+				<div class="alert col-5 alert-success">This is a alert—check it out!</div>
+				<div class="alert col-5 alert-danger">This is a alert—check it out!</div>
+				<div class="alert col-5 alert-warning">This is a alert—check it out!</div>
+				<div class="alert col-5 alert-info">This is a alert—check it out!</div>
+				<div class="alert col-5 alert-light">This is a alert—check it out!</div>
+				<div class="alert col-5 alert-dark">This is a alert—check it out!</div>
+			</div>
+			<hr>
+			<div class="row">
+				<h3 class="hidden-lg bg-success">Ce texte est visible seulement sur un écran LARGE.</h3>
+				<h3 class="visible-md bg-warning">Ce texte est visible seulement sur un écran MEDIUM.</h3>
+				<h3 class="visible-sm bg-danger">Ce texte est visible seulement sur un écran SMALL.</h3>
+				<h3 class="visible-xs bg-info">Ce texte est visible seulement sur un écran EXTRA SMALL.</h3>
+				<h3 class="visible-lg bg-success">Ce texte est invisible seulement sur un écran LARGE.</h3>
+				<h3 class="hidden-md bg-warning">Ce texte est invisible seulement sur un écran MEDIUM.</h3>
+				<h3 class="hidden-sm bg-danger">Ce texte est invisible seulement sur un écran SMALL.</h3>
+				<h3 class="hidden-xs bg-info">Ce texte est invisible seulement sur un écran EXTRA SMALL.</h3>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="column tooltip" >Arctic
+					<span class="tooltiptext" data-placement="right" >Monkeys</span>
+				</div>
+				<div class="column tooltip" >Kelly
+					<span class="tooltiptext" data-placement="left" >Machine Gun</span>
+				</div>
+				<div class="column tooltip" >Day
+					<span class="tooltiptext" data-placement="top" >Green</span>
+				</div>
+				<div class="column tooltip" >Avril
+					<span class="tooltiptext" data-placement="bottom" >Lavigne</span>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<button class="btn btn-warning data-target-modal">Click Me !</button>
+				<div id="Modal">
+					<div class="modal">
+						<span class="close">&times;</span>
+						<p>Close me !</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
